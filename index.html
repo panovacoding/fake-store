@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+	<link href="css/style.css" rel="stylesheet">
+
+	<title>Fake Store</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="nav">
+				<a href="#" class="nav__link">HEADER</a>
+			</nav>
+		</div>
+	</header>
+	<main>
+
+<section class="catalog" id="catalog">
+	<div class="container">
+		<div class="catalog-filters">
+			<form class="filter-form">
+				<fieldset class="filter-category">
+					<span>Choose category</span>
+					<div class="cb-wrap">            
+						<input type="checkbox" name="category" id="mens-clothing" data-category="men's clothing">
+						<label for="mens-clothing">men's clothing</label>
+					</div>
+					<div class="cb-wrap">            
+						<input type="checkbox" name="category" id="womens-clothing" data-category="women's clothing">
+						<label for="womens-clothing">women's clothing</label>
+					</div>
+					<div class="cb-wrap">            
+						<input type="checkbox" name="category" id="electronics" data-category="electronics">
+						<label for="electronics">electronics</label>
+					</div>
+					<div class="cb-wrap">            
+						<input type="checkbox" name="category" id="jewelery" data-category="jewelery">
+						<label for="jewelery">jewelery</label>
+					</div>
+				</fieldset>
+				<button type="submit" class="filter-btn">Apply</button>
+				<button type="reset" class="filter-btn">Reset</button>
+			</form>
+		</div>
+		<ul class="catalog-list" id="catalog-list">
+
+		</ul>
+	</div>
+</section>
+
+</main>
+
+<footer class="footer">
+	<div class="container">
+		<h1>FOOTER</h1>
+	</div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
